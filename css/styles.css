@@ -33,6 +33,21 @@ h2{
     font-family: 'Montserrat-light';
 }
 
+.login{
+    margin: 0 auto;
+}
+/***************************************/
+
+.modal{
+    color: black;
+    text-align: left;
+}
+
+
+
+
+
+
 .titleimg{
     max-width: 60%;
     height: auto;
