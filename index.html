@@ -45,9 +45,119 @@
       <a class="nav-link" href="">Pricing</a>
     </li>
     <li class = "nav-item">
-      <a class="nav-link" href="">Download</a></li>
-  </ul>
-</div>
+      <a class="nav-link" href="">Download</a>
+    </li>
+    </ul>
+    </div>
+    <div class="login">
+              <div class="footer-btn">
+                <button type="button" class="btn btn-dark btn-sm"  data-toggle="modal" data-target = "#signupmodal">Sign up</button>
+              </div>
+              <div class="footer-btn">
+                <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target = "#loginmodal">Login </button>
+              </div>
+              <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Sign Up form</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>                            
+                        </div>
+                        <div class="modal-body">
+                            <form class="pb-modalreglog-form-reg">
+                                <div class="form-group">
+                                    <div id="pb-modalreglog-progressbar"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                        <input type="password" class="form-control" id="inputPws" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirmpassword">Confirm password</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                        <input type="password" class="form-control" id="inputConfirmPws" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+                                        <input type="text" class="form-control" id="countries" placeholder="Country">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="age">Age</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                      <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+                                      <input type="text" class="form-control" id="countries" placeholder="Age">                                      
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="ch" name="chs">
+                                    I agree with <a href="#">terms and conditions.</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h4 class="modal-title" id="myModalLabel">Login</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <form class="pb-modalreglog-form-reg">
+                              <div class="form-group">
+                                  <div id="pb-modalreglog-progressbar"></div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="email">Email address</label>
+                                  <div class="input-group pb-modalreglog-input-group">
+                                      <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password">Password</label>
+                                  <div class="input-group pb-modalreglog-input-group">
+                                      <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                      <input type="password" class="form-control" id="inputPws" placeholder="Password">
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Sign up</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+    
 </nav>
 
     <!-- Title -->
