@@ -242,3 +242,14 @@ h2{
 .footer-text{
     font-size: 17px;
 }
+
+.fa-eye{
+    margin-left:-22px;
+    margin-top: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+
+
